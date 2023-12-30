@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>virtual-piano</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/tone@14"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class = "outer-container">
+        <div class = "piano">
+            <div class = "menu-section">
+                <div><h3>YAMAHA PSR-i500</h3></div>
+            </div>
+            <div class = "key-section">
+            <div class="white-keys" data-note="Z" onclick="playNote(this ,'C4')">Z</div> 
+            <div class="black-keys" data-note="Q" onclick="playNote(this ,'C#4/Db4')">Q</div> 
+            <div class="white-keys" data-note="X" onclick="playNote(this ,'D4')">X</div> 
+            <div class="black-keys" data-note="W" onclick="playNote(this ,'D#4/Eb4')">W</div> 
+            <div class="white-keys" data-note="C" onclick="playNote(this ,'E4')">C</div> 
+            <div class="white-keys" data-note="V" onclick="playNote(this ,'F4')">V</div> 
+            <div class="black-keys" data-note="E" onclick="playNote(this ,'F#4/Gb4')">E</div> 
+            <div class="white-keys" data-note="M" onclick="playNote(this ,'G4')">M</div> 
+            <div class="black-keys" data-note="R" onclick="playNote(this ,'G#4/Ab4')">R</div> 
+            <div class="white-keys" data-note="," onclick="playNote(this ,'A4')">,</div> 
+            <div class="black-keys" data-note="T" onclick="playNote(this ,'A#4/Bb4')">T</div> 
+            <div class="white-keys" data-note="." onclick="playNote(this ,'B4')">.</div> 
+            <div class="white-keys" data-note="/" onclick="playNote(this ,'C5')">/</div>
+            <div class="black-keys" data-note="Y" onclick="playNote(this ,'C#5/Db5')">Y</div> 
+            <div class="white-keys" data-note="A" onclick="playNote(this ,'D5')">A</div>
+            <div class="black-keys" data-note="U" onclick="playNote(this ,'D#5/Eb5')">U</div> 
+            <div class="white-keys" data-note="S" onclick="playNote(this ,'E5')">S</div> 
+            <div class="white-keys" data-note="D" onclick="playNote(this ,'F5')">D</div> 
+            <div class="black-keys" data-note="I" onclick="playNote(this ,'F#5/Gb5')">I</div> 
+            <div class="white-keys" data-note="F" onclick="playNote(this ,'G5')">F</div> 
+            <div class="black-keys" data-note="O" onclick="playNote(this ,'G#5/Ab5')">O</div> 
+            <div class="white-keys" data-note="J" onclick="playNote(this ,'A5')">J</div> 
+            <div class="black-keys" data-note="P" onclick="playNote(this ,'A#5/Bb5')">P</div> 
+            <div class="white-keys" data-note="K" onclick="playNote(this ,'B5')">K</div> 
+            <div class="white-keys" data-note="L" onclick="playNote(this ,'C6')">L</div> 
+            <div class="black-keys" data-note="[" onclick="playNote(this ,'C#6/Db6')">[</div> 
+            <div class="white-keys" data-note=";" onclick="playNote(this ,'D6')">;</div> 
+            <div class="black-keys" data-note="]" onclick="playNote(this ,'D#6/Eb6')">]</div> 
+            <div class="white-keys" data-note="'" onclick="playNote(this ,'E6')">'</div> 
+                
+        </div>
+    </div>
+</body>
+</html>
